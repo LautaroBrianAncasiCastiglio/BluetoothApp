@@ -25,7 +25,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import BluetoothListLayout from './app/bluetooth/containers/bluetooth-list-layout';
+import BluetoothListLayout from './app/bluetooth/containers/bluetooth-list';
 
 type SectionProps = PropsWithChildren<{
   title: string;
