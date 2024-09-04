@@ -6,9 +6,11 @@ import{
     Image,
     StyleSheet
 }from 'react-native'
+import Separator from "./Separator";
 
 function Device(props){
     return(
+        <>
         <TouchableOpacity style={styles.wrapper} onPress={props.onPress}>
         <View style={styles.wrapperLeft}>
             <Image style={styles.iconLeft} source={props.iconLeft}/>
@@ -18,6 +20,8 @@ function Device(props){
         </View>
         <Image style={styles.iconRight} source={props.iconRight}/>
         </TouchableOpacity>
+        <Separator />
+        </>
     )
 }
 
